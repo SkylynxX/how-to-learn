@@ -90,27 +90,23 @@
   margin-top: 100px;
   margin-bottom: 100px;
   height: auto;
-  align-content: space-between;
+  justify-content: space-between;
   border: 3px solid red;
 }
 
 .two-columns__brief {
   flex-direction: column;
-
-  margin-left: 0;
-  margin-top: 0;
-  width: 20%;
-  border: 3px solid red;
-}
-
-.two-columns__brief_heading {
   width: 175px;
   margin-left: 0;
   margin-top: 0;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
+  margin-left: 0;
+  margin-top: 0;
+  border: 3px solid red;
 }
+
 
 .two-columns__main-text {
   border: 3px solid red;
@@ -338,7 +334,7 @@
   border: 1px solid red;
   box-sizing: border-box;
   min-height: 350px;
-  padding: 60px 0 40px 0;
+  height: 1px;
 }
 
 .footer__columns {
@@ -346,17 +342,20 @@
   color: white;
   display: flex;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+
   justify-content: space-between;
+  padding: 60px 0 40px 0;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .footer__columns_content_copyright {
   border: 1px solid red;
   flex-direction: column;
   flex-basis: 711px;
-
+  position: relative;
 }
 
 .logo__place_footer {
@@ -397,6 +396,7 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .footer__columns_content_social {
