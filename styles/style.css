@@ -112,30 +112,19 @@
   justify-content: flex-end;
 }
 
-.two-columns__paragraph1 {
+.two-columns__paragraph {
   top: 0;
   flex-direction: column;
   margin-bottom: 30px;
   line-height: 34px;
   font-size: 24px;
-}
-
-.two-columns__paragraph2 {
-  flex-direction: column;
-  margin-bottom: 30px;
-  line-height: 34px;
-  font-size: 24px;
+  last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .two-columns__span-accent {
   font-weight: bold;
-}
-
-.two-columns__paragraph3 {
-  flex-direction: column;
-  bottom: 0;
-  line-height: 34px;
-  font-size: 24px;
 }
 
 .digits {
@@ -193,10 +182,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text1 {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .feynman {
