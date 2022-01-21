@@ -1,0 +1,7 @@
+.two-columns__main-text {
+  margin-top: 0;
+  min-width: 784px;
+  width: 80%;
+  margin-right: 0;
+  justify-content: flex-end;
+}
