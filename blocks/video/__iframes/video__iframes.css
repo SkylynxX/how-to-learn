@@ -1,0 +1,15 @@
+.video__iframes {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px 10px;
+  z-index: 5;
+
+}
+
+.video__iframes:nth-child(1) {
+  bottom: -50px;
+  position: relative;
+}
