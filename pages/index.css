@@ -135,3 +135,5 @@
 @import url(../blocks/video/video.css);
 
 @import url(../blocks/video/__iframes/video__iframes.css);
+
+@import url(../blocks/rotation/rotation.css);

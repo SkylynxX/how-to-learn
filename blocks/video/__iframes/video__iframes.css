@@ -6,7 +6,6 @@
   justify-content: center;
   gap: 10px 10px;
   z-index: 5;
-
 }
 
 .video__iframes:nth-child(1) {
