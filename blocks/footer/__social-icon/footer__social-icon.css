@@ -1,4 +1,9 @@
 .footer__social-icon {
   background-size: 16px 16px;
   margin-right: 10px;
+  transition: opacity 2s;
+}
+
+.footer__social-icon:hover {
+  opacity: 0.6;
 }
